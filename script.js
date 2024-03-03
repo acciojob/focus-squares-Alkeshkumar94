@@ -12,9 +12,8 @@
 
     square.addEventListener('mouseleave', () => {
       squares.forEach(s => {
-		  if(s!== square){
+		  
         s.style.backgroundColor = '#E6E6FA'; // Reset color to Lavender
-		  }
       });
     });
   });
